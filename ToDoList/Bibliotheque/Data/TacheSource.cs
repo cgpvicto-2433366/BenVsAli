@@ -74,6 +74,7 @@ namespace Bibliotheque.Data
             if (!_listeDeTache.ContainsKey(index))
                 throw new InvalidOperationException("Vous ne pouvez pas supprimer une tache inexistante");
             _listeDeTache.Remove(index);
+            _autoIncrement--;
         }
 
         /// <summary>
@@ -82,6 +83,7 @@ namespace Bibliotheque.Data
         public void SupprimerTout()
         {
             _listeDeTache = new Dictionary<int, Tache>();
+            _autoIncrement = 0;
         }
 
         /// <summary>
@@ -94,7 +96,7 @@ namespace Bibliotheque.Data
             Dictionary<int, Tache> resultat = new Dictionary<int, Tache>();
             for (int i=0; i<_listeDeTache.Count(); i++)
             {
-                if (_listeDeTache[i].Titre == value)
+                if (_listeDeTache[i].Titre == value || _listeDeTache[i].Description == value)
                     resultat.Add(i, _listeDeTache[i]);
             }
             if (resultat.Count() == 0)
