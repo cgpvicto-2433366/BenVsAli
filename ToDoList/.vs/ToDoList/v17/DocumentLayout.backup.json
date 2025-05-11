@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E0584A1-B2F0-46BC-BACC-68514FB16563}|Bibliotheque\\Bibliotheque.csproj|c:\\projetssession2\\programmation2\\benvsali\\todolist\\bibliotheque\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E0584A1-B2F0-46BC-BACC-68514FB16563}|Bibliotheque\\Bibliotheque.csproj|solutionrelative:bibliotheque\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70480928-84BE-4F7A-ACF4-AF54952816F6}|ToDoList\\ToDoList.csproj|c:\\projetssession2\\programmation2\\benvsali\\todolist\\todolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{70480928-84BE-4F7A-ACF4-AF54952816F6}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\Bibliotheque\\Class1.cs",
+              "RelativeDocumentMoniker": "Bibliotheque\\Class1.cs",
+              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\Bibliotheque\\Class1.cs",
+              "RelativeToolTip": "Bibliotheque\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T00:06:36.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Conception]",
               "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\Form1.cs",
               "RelativeDocumentMoniker": "ToDoList\\Form1.cs",
-              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\Form1.cs [Design]",
-              "RelativeToolTip": "ToDoList\\Form1.cs [Design]",
+              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\Form1.cs [Conception]",
+              "RelativeToolTip": "ToDoList\\Form1.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T00:05:52.494Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Conception]"
             },
             {
               "$type": "Bookmark",

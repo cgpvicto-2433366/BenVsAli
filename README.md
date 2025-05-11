@@ -12,8 +12,7 @@ Definition des attributs de la classe Tache ou Task
 -Titre string *
 - Description string
 - Date échéance dateOnly *
-- lieu string 
-- priorite [enum] (basse, moyenne, eleve)
+- priorite [enum] (basse, moyenne, eleve) par defaut basse
 -  statut [enum] (terminer, non terminer) par défaut non terminer
 
 * -♠ obligatoire
