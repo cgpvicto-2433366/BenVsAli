@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,6 +29,10 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Tache.cs",
@@ -36,14 +40,10 @@
               "RelativeDocumentMoniker": "Bibliotheque\\Modeles\\Tache.cs",
               "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\Bibliotheque\\Modeles\\Tache.cs",
               "RelativeToolTip": "Bibliotheque\\Modeles\\Tache.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAwGYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-11T00:16:00.462Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",

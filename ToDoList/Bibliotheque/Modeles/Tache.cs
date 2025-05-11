@@ -16,7 +16,7 @@ namespace Bibliotheque.Modeles
         /// <summary>
         /// Enum sur les differentes valeurs de la priorité d'une tache
         /// </summary>
-        private enum Priorite
+        public enum Priorite
         {
             Basse,
             Moyenne,
@@ -27,10 +27,138 @@ namespace Bibliotheque.Modeles
         #region Attriuts
         private string _titre;
         private string _description;
-        private DateOnly _dateEcheance;
+        private DateOnly _dateEcheance= DateOnly.FromDateTime(DateTime.Now); //valeur par défaut, la date du jour
         private Priorite _priorite = Priorite.Basse;
         private bool _statut = false;
         #endregion
 
+        #region Constructeurs & Méthodes
+        /// <summary>
+        /// COnstructeur d'une tache
+        /// </summary>
+        /// <param name="titre"></param>
+        /// <param name="description"></param>
+        /// <param name="dateEcheance"></param>
+        /// <param name="priorite1"></param>
+        /// <param name="statut"></param>
+        public Tache(string titre, string description, DateOnly dateEcheance, Priorite priorite1, bool statut)
+        {
+            Titre = titre;
+            Description = description;
+            DateEcheance = dateEcheance;
+            Priorite1 = priorite1;
+            Statut = statut;
+        }
+
+        /// <summary>
+        /// Constructeur vide
+        /// </summary>
+        public Tache()
+        {
+
+        }
+
+        /// <summary>
+        /// Modifier la priorité d'une tache
+        /// </summary>
+        /// <param name="priorite"></param>
+        /// <returns>true si la priorité a été modifié</returns>
+        public bool ModifierPriorite(string priorite)
+        {
+            if (Enum.TryParse<Priorite>(priorite, true, out Priorite priorite1))
+                return true;
+            return false;      
+        }
+
+        /// <summary>
+        /// Modifier le titre de la tache
+        /// </summary>
+        /// <param name="titre">nouvreua titre</param>
+        public void ModifierTitre(string titre)
+        {
+            Titre = titre;
+        }
+
+        /// <summary>
+        /// Modifier la description de la tache
+        /// </summary>
+        /// <param name="titre">nouvreua titre</param>
+        public void ModifierDescription(string description)
+        {
+            Description= description;
+        }
+
+        /// <summary>
+        /// Modifier la date d'échéance de la tache
+        /// </summary>
+        /// <param name="titre">nouvreua titre</param>
+        public void ModifierDateEcheance(DateOnly date)
+        {
+            DateEcheance = date;
+        }
+
+        /// <summary>
+        /// Modifier le statut de la tache
+        /// </summary>
+        /// <param name="value"></param>
+        public void ModifierStatut(bool value)
+        {
+            Statut = value;
+        }
+
+        #endregion
+
+        #region Accesseurs
+        /// <summary>
+        /// Accesseur sur le titre de la tache, valeur non null, ni vide 
+        /// </summary>
+        public string Titre 
+        { 
+            get => _titre; 
+            private set 
+            {
+                if(string.IsNullOrEmpty(value))
+                    _titre = value; 
+            }
+        }
+
+        /// <summary>
+        /// Accesseur sur la description, valeur facultative
+        /// </summary>
+        public string Description 
+        { 
+            get => _description; 
+            private set  
+            {
+                if(string.IsNullOrEmpty(value))
+                    _description = "";
+                _description = value;
+            } 
+        }
+
+        /// <summary>
+        /// Accesseur sur la date d'echeance de la tache 
+        /// </summary>
+        public DateOnly DateEcheance 
+        { 
+            get => _dateEcheance; 
+            private set 
+            {
+                if (value < DateOnly.FromDateTime(DateTime.Now))
+                    throw new ArgumentOutOfRangeException("la date d'échéance ne peut pas être dans le passé");
+                _dateEcheance = value; 
+            } 
+        }
+
+        /// <summary>
+        /// Accesseur sur la priorité
+        /// </summary>
+        private Priorite Priorite1 { get => _priorite; set => _priorite = value; }
+
+        /// <summary>
+        /// Accesseur sur le statut de la tache
+        /// </summary>
+        public bool Statut { get => _statut; set => _statut = value; }
+        #endregion
     }
 }
