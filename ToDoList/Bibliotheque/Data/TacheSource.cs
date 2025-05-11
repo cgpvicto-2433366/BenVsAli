@@ -85,6 +85,16 @@ namespace Bibliotheque.Data
             _listeDeTache = new Dictionary<int, Tache>();
             _autoIncrement = 0;
         }
+        
+        /// <summary>
+        /// Recuperer toutes les taches qui ont déjà 
+        /// été creer
+        /// </summary>
+        /// <returns></returns>
+        public Dictionary<int, Tache> Afficher()
+        {
+            return _listeDeTache;
+        }
 
         /// <summary>
         /// Cherhcer des taches par leur titre ou description

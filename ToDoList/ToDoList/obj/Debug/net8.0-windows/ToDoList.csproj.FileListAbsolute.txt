@@ -3,7 +3,6 @@ C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\bin\Debug\net8.0-wi
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\bin\Debug\net8.0-windows\ToDoList.runtimeconfig.json
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\bin\Debug\net8.0-windows\ToDoList.dll
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\bin\Debug\net8.0-windows\ToDoList.pdb
-C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.Form1.resources
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.csproj.GenerateResource.cache
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.GeneratedMSBuildEditorConfig.editorconfig
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.AssemblyInfoInputs.cache
@@ -15,3 +14,9 @@ C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-wi
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.pdb
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.genruntimeconfig.cache
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ref\ToDoList.dll
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.FormPrincipal.resources
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.csproj.AssemblyReference.cache
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\bin\Debug\net8.0-windows\Bibliotheque.dll
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\bin\Debug\net8.0-windows\Bibliotheque.pdb
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.csproj.Up2Date
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.Properties.Resources.resources

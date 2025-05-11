@@ -66,6 +66,16 @@ namespace Bibliotheque.Controlleur
         }
 
         /// <summary>
+        /// Recuperer toutes les taches qui ont déjà 
+        /// été creer
+        /// </summary>
+        /// <returns>Liste de tache</returns>
+        public Dictionary<int, Tache> Afficher()
+        {
+           return _source.Afficher();
+        }
+
+        /// <summary>
         /// Supprimer toutes les taches
         /// </summary>
         public void SupprimerTout()

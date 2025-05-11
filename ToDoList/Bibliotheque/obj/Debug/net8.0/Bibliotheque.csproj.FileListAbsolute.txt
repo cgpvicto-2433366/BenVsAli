@@ -1,0 +1,12 @@
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\bin\Debug\net8.0\Bibliotheque.deps.json
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\bin\Debug\net8.0\Bibliotheque.dll
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\bin\Debug\net8.0\Bibliotheque.pdb
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\Bibliotheque.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\Bibliotheque.AssemblyInfoInputs.cache
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\Bibliotheque.AssemblyInfo.cs
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\Bibliotheque.csproj.CoreCompileInputs.cache
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\Bibliotheque.sourcelink.json
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\Bibliotheque.dll
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\refint\Bibliotheque.dll
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\Bibliotheque.pdb
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\Bibliotheque\obj\Debug\net8.0\ref\Bibliotheque.dll
