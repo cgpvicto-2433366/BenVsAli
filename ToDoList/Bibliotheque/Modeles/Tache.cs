@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -10,7 +11,7 @@ namespace Bibliotheque.Modeles
     /// <summary>
     /// Structure de donnée d'une tâche
     /// </summary>
-    public class Tache
+    public class Tache: IComparable
     {
         #region Enum
         /// <summary>
@@ -62,12 +63,9 @@ namespace Bibliotheque.Modeles
         /// Modifier la priorité d'une tache
         /// </summary>
         /// <param name="priorite"></param>
-        /// <returns>true si la priorité a été modifié</returns>
-        public bool ModifierPriorite(string priorite)
+        public void ModifierPriorite(Priorite priorite)
         {
-            if (Enum.TryParse<Priorite>(priorite, true, out Priorite priorite1))
-                return true;
-            return false;      
+            this.Priorite1 = priorite;     
         }
 
         /// <summary>
@@ -77,6 +75,22 @@ namespace Bibliotheque.Modeles
         public void ModifierTitre(string titre)
         {
             Titre = titre;
+        }
+
+        /// <summary>
+        /// Comparer les taches (égalité)
+        /// </summary>
+        /// <param name="other">Une tache</param>
+        /// <returns>True si il s'agit des mêmes taches</returns>
+        public bool Equals(Tache other)
+        {
+            if (other is null)
+                return false;
+            if (this.Titre == other.Titre &&
+                this.Description == other.Description &&
+                this.DateEcheance == other.DateEcheance)
+                return true;
+            return false;
         }
 
         /// <summary>
@@ -106,6 +120,29 @@ namespace Bibliotheque.Modeles
             Statut = value;
         }
 
+        /// <summary>
+        /// Comparaison de deux tache en fontion de la date d'echéance
+        /// </summary>
+        /// <param name="obj">Un objet</param>
+        /// <returns></returns>
+        public int CompareTo(object? obj)
+        {
+            if (obj is null)
+                return 1;
+            if(obj is Tache)
+            {
+                Tache temp = new Tache();
+                temp = (Tache)obj;
+                if (this.DateEcheance < temp.DateEcheance)
+                    return -1;
+                if (this.DateEcheance > temp.DateEcheance)
+                    return 1;
+                if (this.DateEcheance == temp.DateEcheance)
+                    return 0;
+            }
+            return 1;
+                
+        }
         #endregion
 
         #region Accesseurs
