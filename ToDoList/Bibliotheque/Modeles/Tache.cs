@@ -154,8 +154,8 @@ namespace Bibliotheque.Modeles
             get => _titre; 
             private set 
             {
-                if(string.IsNullOrEmpty(value))
-                    _titre = value; 
+                if (string.IsNullOrEmpty(value))
+                    throw new ArgumentException("Entrer un titre");
             }
         }
 

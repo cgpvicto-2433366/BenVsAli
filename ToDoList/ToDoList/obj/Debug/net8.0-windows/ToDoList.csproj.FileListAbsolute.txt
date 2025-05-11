@@ -20,3 +20,4 @@ C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\bin\Debug\net8.0-wi
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\bin\Debug\net8.0-windows\Bibliotheque.pdb
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.csproj.Up2Date
 C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.Properties.Resources.resources
+C:\ProjetsSession2\Programmation2\BenVsAli\ToDoList\ToDoList\obj\Debug\net8.0-windows\ToDoList.FormAjouter.resources

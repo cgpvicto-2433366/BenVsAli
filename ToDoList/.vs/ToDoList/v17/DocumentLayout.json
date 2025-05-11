@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70480928-84BE-4F7A-ACF4-AF54952816F6}|ToDoList\\ToDoList.csproj|c:\\projetssession2\\programmation2\\benvsali\\todolist\\todolist\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{70480928-84BE-4F7A-ACF4-AF54952816F6}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2E0584A1-B2F0-46BC-BACC-68514FB16563}|Bibliotheque\\Bibliotheque.csproj|c:\\projetssession2\\programmation2\\benvsali\\todolist\\bibliotheque\\modeles\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E0584A1-B2F0-46BC-BACC-68514FB16563}|Bibliotheque\\Bibliotheque.csproj|solutionrelative:bibliotheque\\modeles\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70480928-84BE-4F7A-ACF4-AF54952816F6}|ToDoList\\ToDoList.csproj|c:\\projetssession2\\programmation2\\benvsali\\todolist\\todolist\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70480928-84BE-4F7A-ACF4-AF54952816F6}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70480928-84BE-4F7A-ACF4-AF54952816F6}|ToDoList\\ToDoList.csproj|c:\\projetssession2\\programmation2\\benvsali\\todolist\\todolist\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70480928-84BE-4F7A-ACF4-AF54952816F6}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E0584A1-B2F0-46BC-BACC-68514FB16563}|Bibliotheque\\Bibliotheque.csproj|c:\\projetssession2\\programmation2\\benvsali\\todolist\\bibliotheque\\controlleur\\controlleurtache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E0584A1-B2F0-46BC-BACC-68514FB16563}|Bibliotheque\\Bibliotheque.csproj|solutionrelative:bibliotheque\\controlleur\\controlleurtache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,45 +29,29 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormPrincipal.cs [Conception]",
-              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "ToDoList\\FormPrincipal.cs",
-              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\FormPrincipal.cs [Conception]",
-              "RelativeToolTip": "ToDoList\\FormPrincipal.cs [Conception]",
+              "Title": "Tache.cs",
+              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\Bibliotheque\\Modeles\\Tache.cs",
+              "RelativeDocumentMoniker": "Bibliotheque\\Modeles\\Tache.cs",
+              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\Bibliotheque\\Modeles\\Tache.cs",
+              "RelativeToolTip": "Bibliotheque\\Modeles\\Tache.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAQwJ0AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T06:22:13.468Z",
-              "EditorCaption": " [Conception]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\FormPrincipal.Designer.cs",
-              "RelativeDocumentMoniker": "ToDoList\\FormPrincipal.Designer.cs",
-              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\FormPrincipal.Designer.cs",
-              "RelativeToolTip": "ToDoList\\FormPrincipal.Designer.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAkwDcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T06:21:22.766Z",
+              "WhenOpened": "2025-05-11T14:19:47.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "ToDoList\\FormPrincipal.cs",
-              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\ToDoList\\FormPrincipal.cs",
-              "RelativeToolTip": "ToDoList\\FormPrincipal.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwDIAAAAJAAAAAAAAAA==",
+              "Title": "ControlleurTache.cs",
+              "DocumentMoniker": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\Bibliotheque\\Controlleur\\ControlleurTache.cs",
+              "RelativeDocumentMoniker": "Bibliotheque\\Controlleur\\ControlleurTache.cs",
+              "ToolTip": "C:\\ProjetsSession2\\Programmation2\\BenVsAli\\ToDoList\\Bibliotheque\\Controlleur\\ControlleurTache.cs",
+              "RelativeToolTip": "Bibliotheque\\Controlleur\\ControlleurTache.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-11T06:20:34.653Z",
+              "WhenOpened": "2025-05-11T13:43:24.241Z",
               "EditorCaption": ""
             }
           ]

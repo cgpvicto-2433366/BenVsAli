@@ -30,11 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             dataGridViewTache = new DataGridView();
-            Titre = new DataGridViewTextBoxColumn();
-            Description = new DataGridViewTextBoxColumn();
-            DateEcheance = new DataGridViewTextBoxColumn();
-            Statut = new DataGridViewTextBoxColumn();
-            Priorite = new DataGridViewTextBoxColumn();
             toolStripOutils = new ToolStrip();
             toolStripButtonAjouter = new ToolStripButton();
             toolStripButton1Supprimer = new ToolStripButton();
@@ -48,47 +43,11 @@
             dataGridViewTache.AllowUserToAddRows = false;
             dataGridViewTache.AllowUserToDeleteRows = false;
             dataGridViewTache.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewTache.Columns.AddRange(new DataGridViewColumn[] { Titre, Description, DateEcheance, Statut, Priorite });
             dataGridViewTache.Location = new Point(12, 12);
             dataGridViewTache.Name = "dataGridViewTache";
             dataGridViewTache.RowHeadersWidth = 51;
-            dataGridViewTache.Size = new Size(693, 426);
+            dataGridViewTache.Size = new Size(680, 426);
             dataGridViewTache.TabIndex = 0;
-            // 
-            // Titre
-            // 
-            Titre.HeaderText = "Titre";
-            Titre.MinimumWidth = 6;
-            Titre.Name = "Titre";
-            Titre.Width = 125;
-            // 
-            // Description
-            // 
-            Description.HeaderText = "Description";
-            Description.MinimumWidth = 6;
-            Description.Name = "Description";
-            Description.Width = 125;
-            // 
-            // DateEcheance
-            // 
-            DateEcheance.HeaderText = "Date";
-            DateEcheance.MinimumWidth = 6;
-            DateEcheance.Name = "DateEcheance";
-            DateEcheance.Width = 125;
-            // 
-            // Statut
-            // 
-            Statut.HeaderText = "Statut";
-            Statut.MinimumWidth = 6;
-            Statut.Name = "Statut";
-            Statut.Width = 125;
-            // 
-            // Priorite
-            // 
-            Priorite.HeaderText = "Priorite";
-            Priorite.MinimumWidth = 6;
-            Priorite.Name = "Priorite";
-            Priorite.Width = 125;
             // 
             // toolStripOutils
             // 
@@ -150,11 +109,6 @@
         #endregion
 
         private DataGridView dataGridViewTache;
-        private DataGridViewTextBoxColumn Titre;
-        private DataGridViewTextBoxColumn Description;
-        private DataGridViewTextBoxColumn DateEcheance;
-        private DataGridViewTextBoxColumn Statut;
-        private DataGridViewTextBoxColumn Priorite;
         private ToolStrip toolStripOutils;
         private ToolStripButton toolStripButtonAjouter;
         private ToolStripButton toolStripButton1Supprimer;

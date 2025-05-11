@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35728.132 d17.12
+VisualStudioVersion = 17.12.35728.132
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{70480928-84BE-4F7A-ACF4-AF54952816F6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bibliotheque", "Bibliotheque\Bibliotheque.csproj", "{2E0584A1-B2F0-46BC-BACC-68514FB16563}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70480928-84BE-4F7A-ACF4-AF54952816F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70480928-84BE-4F7A-ACF4-AF54952816F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70480928-84BE-4F7A-ACF4-AF54952816F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70480928-84BE-4F7A-ACF4-AF54952816F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E0584A1-B2F0-46BC-BACC-68514FB16563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E0584A1-B2F0-46BC-BACC-68514FB16563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E0584A1-B2F0-46BC-BACC-68514FB16563}.Release|Any CPU.ActiveCfg = Release|Any CPU

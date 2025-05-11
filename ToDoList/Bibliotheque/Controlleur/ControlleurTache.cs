@@ -28,7 +28,7 @@ namespace Bibliotheque.Controlleur
         }
 
         /// <summary>
-        /// Creer une tâche
+        /// Creer une tâche, l'index de la tche est ajouter de façon automatique
         /// </summary>
         /// <param name="titre">titre</param>
         /// <param name="dateEcheance">date</param>
@@ -56,7 +56,7 @@ namespace Bibliotheque.Controlleur
         }
 
         /// <summary>
-        /// Supprimer une tache
+        /// Supprimer une tache, les index sont reorganiser automatiquement
         /// </summary>
         /// <param name="index">index de la tache</param>
         /// <exception cref="InvalidOperationException">Si la tache n'existe pas</exception>
