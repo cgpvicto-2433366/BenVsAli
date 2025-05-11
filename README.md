@@ -5,3 +5,16 @@ Faire une ToDo list suivant les bonnes pratiques de programmation.
 - le plus beau possible 
 - le plus realistique possible
 - les fonctionnalités possibles 
+
+
+Definition des attributs de la classe Tache ou Task
+
+-Titre string *
+- Description string
+- Date échéance dateOnly *
+- lieu string 
+- priorite [enum] (basse, moyenne, eleve)
+-  statut [enum] (terminer, non terminer) par défaut non terminer
+
+* -♠ obligatoire
+  -♠ non obligatoire
